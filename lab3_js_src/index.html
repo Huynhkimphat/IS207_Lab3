@@ -83,9 +83,6 @@
 
 <!-- Huynh Kim Phat 19521992 -->
 <script>
-<<<<<<< HEAD
-    window.onload = function () {
-=======
     //window.onscroll = function() {
     //      if (window.scrollY + document.documentElement.clientHeight == document.documentElement.scrollHeight) {
     //        divSearchResult.innerHTML += '<img src="images/' + 1 + '.jpg " alt="" class="col-md-4 thumbnail ">';
@@ -95,21 +92,14 @@
     // }
     //}
     /*window.onload = function() {
->>>>>>> 16fd6ebaad3dac21b3d50565e49f5be203afc690
         var divSearchResult = document.getElementById('divSearchResult');
         divSearchResult.innerHTML = "";
 
         for (i = 1; i <= 24; i++) {
             divSearchResult.innerHTML += '<img src="images/' + i + '.jpg " alt="" class="col-md-4 thumbnail "/>'
         }
-<<<<<<< HEAD
-    }
-
-    document.getElementById("btnSearch").onclick = function () {
-=======
     }*/
     /*document.getElementById('btnSearch').onclick = function() {
->>>>>>> 16fd6ebaad3dac21b3d50565e49f5be203afc690
         var divSearchResult = document.getElementById('divSearchResult');
         var keyword = document.getElementById('txtKeyword').value;
         if (keyword == "") {
@@ -154,7 +144,7 @@
     btnSeeMore.click(myFunction);
 
     // Huynh Kim Phat 19521992 _3.6 Jquery
-    $(document).ready(function() {
+    $(document).ready(function () {
         let divSearchResult = $('#divSearchResult');
         divSearchResult.html('');
 
@@ -164,7 +154,7 @@
     })
 
     // Huynh Kim Phat 19521992 _3.7 Jquery
-    $('#btnSearch').click(function() {
+    $('#btnSearch').click(function () {
         var divSearchResult = $('#divSearchResult');
         var keyword = $('#txtKeyword').val();
         if (keyword == "") {
@@ -200,7 +190,7 @@
     })
 
     // Huynh Kim Phat 19521992 _3.8 Jquery
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         if (Math.floor($(window).scrollTop() + $(window).height()) == $(document).height()) {
             divSearchResult.append('<img src="images/' + 1 + '.jpg " alt="" class="col-md-4 thumbnail ">');
             divSearchResult.append('<img src="images/' + 1 + '.jpg " alt="" class="col-md-4 thumbnail ">');
