@@ -26,14 +26,14 @@
         body {
             font-family: 'Roboto';
         }
-        
+
         #left-sidebar,
         #main-content {
             height: 500px;
             border: 1px solid red;
             margin-bottom: 50px;
         }
-        
+
         #footer {
             border: 1px solid grey;
             text-align: center;
@@ -46,7 +46,8 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -106,16 +107,16 @@
 
 <!-- Huynh Kim Phat 19521992 -->
 <script>
-    window.onload = function() {
+    window.onload = function () {
         var divSearchResult = document.getElementById('divSearchResult');
         divSearchResult.innerHTML = "";
 
         for (i = 1; i <= 24; i++) {
-            divSearchResult.innerHTML += '<img src="images/' + i + '.jpg " alt="" class="col-md-4 thumbnail ">'
+            divSearchResult.innerHTML += '<img src="images/' + i + '.jpg " alt="" class="col-md-4 thumbnail "/>'
         }
     }
 
-    document.getElementById("btnSearch").onclick = function() {
+    document.getElementById("btnSearch").onclick = function () {
         var divSearchResult = document.getElementById('divSearchResult');
         var keyword = document.getElementById('txtKeyword').value;
         if (keyword == "") {
