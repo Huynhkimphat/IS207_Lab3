@@ -22,5 +22,5 @@ var products = [
     "images/21.jpg",
     "images/22.jpg",
     "images/23.jpg",
-    "images/24.jpg"
+    "images/24.jpg",
 ];
